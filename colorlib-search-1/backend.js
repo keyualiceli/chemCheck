@@ -7,9 +7,9 @@ function getInputValue(){
     document.getElementById("chem_name").innerHTML = searchResult;
 }
 
-// function changeTop() {
-//     document.getElementById("chem-name").innerHTML = searchResult;
-// }
+// // function changeTop() {
+// //     document.getElementById("chem-name").innerHTML = searchResult;
+// // }
 
 
 
