@@ -1,6 +1,11 @@
+
+
 <html>
   <script src = "backend.js"></script>
   <head>
+      <!-- Firebase Stuff -->
+      <script
+      src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
       <title>CHEMCHECK</title>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -20,11 +25,13 @@
             <input id="search" type="text" placeholder="What harmful chemicals are you eliminating today?" />
           </div>
           <div class="input-field third-wrap">
-            <button class="btn-search" type="button" onclick="window.location.href='main_alice.html'">Search</button>
+            <button id="searchBox" class="btn-search" type="button" onclick="getInputValue()">Search</button>
               
-          </div>
+          </div>  
         </div>
       </form>
     </div>
   </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 </html>
+
+// onclick="window.location.href='main_alice.html';

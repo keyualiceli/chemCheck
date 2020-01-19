@@ -1,19 +1,18 @@
 var searchResult = new String;
 
-
 function getInputValue(){
-    searchResult = document.getElementById("input-field third-wrap").value;
+    searchResult = document.getElementById("searchBox").value;
 
+    console.log("test");
+
+    //changeTop();
+}
+
+function changeTop() {
     document.getElementById("chem_name").innerHTML = searchResult;
 }
 
-// function changeTop() {
-//     document.getElementById("chem-name").innerHTML = searchResult;
-// }
-
-
-
-(function() {
+function database_stuff() {
 
     // Set the configuration for your app
     // TODO: Replace with your project's config object
@@ -25,9 +24,8 @@ function getInputValue(){
     };
     firebase.initializeApp(config);
 
-    input = searchResult;
+    input = "TestChem";
 
-    chemicals = [["Oxygen", ["Nitrogen", " Dying"]],  ["Straws", ["Paper Straws", " Fuck the Turtles", " Metal Straws"]]];
 
     
 
@@ -36,7 +34,7 @@ function getInputValue(){
 
 
     // Get elements
-    const preObject_name = document.getElementById("headerTxt");
+    const preObject_name = document.getElementById("chem_name");
     const preObject_env = document.getElementById("env_eff");
     const preObject_health = document.getElementById("health_eff");
 
@@ -73,4 +71,4 @@ function getInputValue(){
         }
     }
     
-}());
+};
