@@ -27,10 +27,6 @@ function getInputValue(){
 
     input = searchResult;
 
-    chemicals = [["Oxygen", ["Nitrogen", " Dying"]],  ["Straws", ["Paper Straws", " Fuck the Turtles", " Metal Straws"]]];
-
-    
-
     // Get a reference to the database service
     var database = firebase.database();
 
