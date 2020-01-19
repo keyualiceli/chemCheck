@@ -6,7 +6,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <!-- Bootstrap CSS -->
+     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style_alice.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CMuli:400,700" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Custom stlylesheet -->
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    
+    <!-- Bootstrap CSS2 -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style_alice.css">
@@ -27,55 +45,79 @@
 
 <!-- we want: chemical name, picture, years used to decay, environmental hazard, hazard to life-->
 <body>
+    <!-- SECTION -->
+    <div class="main_title">
+        <fieldset><legend><b>C H E M C H E C K</b></legend></fieldset>
+    </div>
+    
     <div class="page-container">
-        <h1 class="main_title"><strong><i>ChemCheck</i></strong></h1>
+        <h2 class="chem-name" id="chem_name">Sulfuric Acid (H2NO4)</h2>
         <br/>
         <!--this is picture-->
-        <h2 class="chem-name" id="chem_name">Sulfuric Acid (H2SO4)</h2>
-        <img src="https://comptox.epa.gov/dashboard/dsstoxdb/compound_image_file?source=3872" class="center-block" title="Chemical Name" width="40%">
+        <img src="https://comptox.epa.gov/dashboard/dsstoxdb/compound_image_file?source=9634" class="center-block" title="Chemical Name" width="20%">
+    </div>
+            
+	<div class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div id="hot-post" class="row hot-post">
+				<div class="col-md-8 hot-post-left">
+					<!-- post -->
+					<div class="post post-thumb">
+						<a class="post-img" href="blog-post.html"><img src="https://images.unsplash.com/photo-1489532060612-9910b757430f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt=""></a>
+						<div class="post-body">
+							<div class="post-category">
+								<a href="category.html">Alternative</a>
+							</div>
+                            <ul><h3 class="post-title title-lg"><a>Sulfate</a></h3></ul>
+							<ul><h3 class="post-title title-lg"><a>Sulfuric acid--water (1/3)</a></h3></ul>
+                            <ul><h3 class="post-title title-lg"><a>Sulfuric acid--water (1/4)</a></h3></ul>
+						</div>
+					</div>
+					<!-- /post -->
+				</div>
+				<div class="col-md-4 hot-post-right">
+					<!-- post -->
+					<div class="post post-thumb">
+						<a class="post-img" href="blog-post.html"><img src="https://images.unsplash.com/photo-1419216649355-c0547590470c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80" alt=""></a>
+						<div class="post-body">
+							<div class="post-category">
+								<a href="category.html">Environmental Hazard</a>
+							</div>
+							<ul><h3 class="post-title"><a href="blog-post.html">Toxicity to micro-organisms</a></h3>
+                            </ul>							
+						</div>
+					</div>
+					<!-- /post -->
 
-        <br/>
-        <!--this is info-->
-        <div class=.container>
-            <div class="row">
-                <div class="col eh">
-                    <br/>
-                    <h2 class="subtitle">Environmental Hazard</h2>
-                    <br/>
-                    <ul id="environmental-hazard">
-                        <li>Toxicity to micro-organisms</li>
-
-                    </ul>
-                </div>
-                <div class="col dh">
-                    <br/>
-                    <h2 class="subtitle">Danger to Health</h2>
-                    <br/>
-                    <ul id="damage-to-health"> 
-                        <li>Repeated inhalation is toxic</li>
-                        <li>Repeated exposure causes cancer</li>
-                    </ul>
-                </div>
-                <div class="col dr">
-                    <br/>
-                    <h2 class="subtitle">Alternatives</h2>
-                    <br/>
-                    <ul id="alternatives">
-                        <li>Sulfate</li>
-                        <li>Sulfuric acid--water (1/3)</li>
-                        <li>Sulfuric acid--water (1/4)</li>
-                    </ul>
-                </div>
-            </div>
-        </div>   
-
+					<!-- post -->
+					<div class="post post-thumb">
+						<a class="post-img" href="blog-post.html"><img src="https://images.unsplash.com/photo-1524863479829-916d8e77f114?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt=""></a>
+						<div class="post-body">
+							<div class="post-category">
+								<a href="category.html">Danger to health</a>
+							</div>
+							<ul><h3 class="post-title"><a href="blog-post.html">Repeated inhalation is toxic</a></h3>
+                            </ul>
+                            <ul><h3 class="post-title"><a href="blog-post.html">Repeated exposure causes cancer</a></h3>
+                            </ul>
+						</div>
+					</div>
+					<!-- /post -->
+				</div>
+			</div>
+			<!-- /row -->
+		</div>
         <br><br>
         <div class="last-section">
             <button type="button" class="btn btn-secondary btn-lg center-block" onclick="window.location.href='index.html'">
                 Return to search</button>
         </div>
         <br/>
-    </div>
+		<!-- /container -->
+	</div>
+    <!-- /SECTION -->
 
 </body>
 
