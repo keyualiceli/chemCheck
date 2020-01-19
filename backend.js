@@ -33,7 +33,7 @@ function changeTop() {
 
 
     // Get elements
-    const preObject_name = document.getElementById("chem_name");
+    const preObject_name = document.getElementById("headerTxt");
     const preObject_env = document.getElementById("env_eff");
     const preObject_health = document.getElementById("health_eff");
 
