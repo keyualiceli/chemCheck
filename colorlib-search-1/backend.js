@@ -3,9 +3,9 @@ var searchResult = new String;
 function getInputValue(){
     searchResult = document.getElementById("searchBox").value;
 
-    console.log(searchResult);
+    console.log("test");
 
-    changeTop();
+    //changeTop();
 }
 
 function changeTop() {
