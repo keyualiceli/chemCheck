@@ -1,16 +1,18 @@
 var searchResult = new String;
 
 function getInputValue(){
-    searchResult = document.getElementById("searchBox").value;
+    searchResult = document.getElementById("search").value;
+    if (searchResult === "NAOH") {
+        return "NAOH.html";
+    } else if (searchResult === "Ammonia"){
+        return "AMONNIA.html";
+    } else if (searchResult === "Sulfuric Acid") {
+        return "SulfuricACID.html";
+    } else {
+        return "index.html";
+    }}
 
-    console.log("test");
 
-    //changeTop();
-}
-
-function changeTop() {
-    document.getElementById("chem_name").innerHTML = searchResult;
-}
 
 function database_stuff() {
 
